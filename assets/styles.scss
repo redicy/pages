@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@use './tailwind.css';
+@use './layout/layout.scss';
+@use 'primeicons/primeicons.css';
+
+.pi.wordstat::before {
+  background-image: url('icons/yandex.png');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
+
+.pi.google-trends::before {
+  background-image: url('icons/google-trends.ico');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
+
+.pi.ozon-fbs::before {
+  background-image: url('layout/images/favicon.png');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
+
+.pi.ozon-fbo::before,.pi.ozon::before {
+  background-image: url('icons/ozon.ico');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
+
+.pi.ozon-seller::before {
+  background-image: url('icons/ozon-seller.png');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
+
+.pi.wb::before {
+  background-image: url('icons/wb.ico');
+  width: 17px;
+  height: 17px;
+  content: "";
+  background-size: cover;
+  display: inline-block;
+}
